@@ -1,0 +1,31 @@
+# Geliştirme bağımlılıkları ve modüller
+# Bu klasörler 'npm install' ile yeniden oluşturulabilir
+node_modules/
+/backend/node_modules/
+/frontend/node_modules/
+
+# Ortam değişkenleri - GİZLİ ve KİŞİSEL
+# Bu dosyalar asla paylaşılmamalı!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/backend/.env
+/frontend/.env.local
+
+# Build çıktıları ve önbellek dosyaları
+# Bu dosyalar build sırasında otomatik oluşur
+/backend/dist/
+/frontend/.next/
+
+# IDE ve OS'a özel dosyalar
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NPM debug logları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
